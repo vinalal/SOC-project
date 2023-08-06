@@ -12,4 +12,6 @@ TASKS COMPLETED-
 
 5)solved the week 4 assignment of Windy Gridworld 
 
-6)currently working on game environment and will require two weeks for integration with reinforcement learning.
+6)Made the flappy bird environment in using pygame
+
+7)Implemented SARSA and tile coding in the environment to run the game automatically.
