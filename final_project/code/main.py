@@ -363,7 +363,7 @@ class TileCoder:
 if __name__ == '__main__':
     game = Game()
     run_method = input()
-    if run_method == "mrun":
+    if run_method == "mrun":# manual gameplay
         game.mrun()
     else:
-        game.RLrun()
+        game.RLrun() # automatic gameplay
