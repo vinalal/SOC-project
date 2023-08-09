@@ -293,7 +293,7 @@ class Game:
                     if random.random() < self.epsilon:
                         next_action = random.randint(0, self.num_actions - 1)  # Explore
                     else:
-                        if self.q_table[initial_tiles,0] > self.q_table[initial_tiles,1]:
+                        if self.q_table[next_tiles,0] > self.q_table[next_tiles,1]:
                             next_action = 0
                         else:
                             next_action = 1
